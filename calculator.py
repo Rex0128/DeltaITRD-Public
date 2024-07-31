@@ -16,7 +16,7 @@ class View:
         self.root.wm_title("Calculator")
         self.output_textvariable = tk.StringVar()
         self.output_text = tk.Entry(self.root, textvariable=self.output_textvariable, width = 50, justify='right')
-
+        
         self.buttons = {}
         self.operators = {}
 
@@ -65,6 +65,7 @@ class Model:
         self.ctrl = ctrl
 
     def add(self, input):
+        print("Hi, I am Rex.")
         print("add")
 
     def subtract(self, input):
